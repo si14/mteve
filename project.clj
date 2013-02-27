@@ -12,8 +12,8 @@
     :builds {
       :main {
         :source-paths ["src/cljs"]
-        :compiler {:output-to "resources/public/js/cljs.js"
-                   :optimizations :simple
-                   :pretty-print true}
+        :compiler {:output-to "resources/public/js/mteve.js"
+                   :optimizations :advanced
+                   :pretty-print false}
         :jar true}}}
   :main mteve.server)
