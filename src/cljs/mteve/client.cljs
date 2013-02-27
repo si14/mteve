@@ -56,4 +56,4 @@
 (plot-fragment)
 
 (.addEventListener (.getElementById js/document "regen") "click"
-                   plot-fragment)
+                   (fn [evt] (.preventDefault evt) (plot-fragment)))
