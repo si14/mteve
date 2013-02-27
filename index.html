@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Test</title>
-    <link rel="stylesheet" href="css/normalize.css" />
+    <title>mtEve</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
     <link rel="stylesheet" href="css/page.css" />
   </head>
   <body>
-    <div>
-      <div class="leftpan">
-        <a class="button regen" href="#" id="regen">regenerate</a>
+    <a href="https://github.com/si14/mteve"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+    <div class="row">
+      <div class="five columns">
+        <h4>Симуляция мт-Евы</h4>
+        <p>
+          Подробнее можно прочитать <a href="http://macroevolution.livejournal.com/113694.html">здесь</a>.
+        </p>
+        <p>
+          Технические детали:
+          <ul>
+            <li>
+              Количество детей конкретной особи распределено по закону
+              Бернулли с параметром <span id="lambda">X</span>
+            </li>
+            <li>
+              На каждом шаге выживает случайное фиксированное число индивидов
+            </li>
+          </ul>
+        </p>
+        <a class="button" href="#" id="regen">Обновить</a>
       </div>
-      <div>
+      <div class="seven columns">
         <div id="main">
         </div>
       </div>
