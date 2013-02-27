@@ -1,0 +1,45 @@
+body {
+  /* width: 900px; */
+  margin: 0 auto;
+  background: #ddd;
+}
+
+div.leftpan {
+  float: left;
+  /* width: 200px; */
+  height: auto;
+}
+
+div.rightpan {
+  float: left;
+}
+
+div.gen {
+  width: 800px;
+  max-width: 100%;
+  min-width: 768px;
+  /* margin: 0 auto; */
+  height: 2em;
+  margin: 6px auto;
+}
+
+div.entity {
+  float: left;
+  position: relative;
+  height: 2em;
+  width: 2.3em;
+  margin: 0px 3px;
+  text-align: center;
+  line-height: 2em;
+  font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  color: #555;
+}
+
+/* buttons from Zurb Framework */
+.button { width: auto; background: #2ba6cb; border: 1px solid #1e728c; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; cursor: pointer; display: inline-block; font-family: inherit; font-size: 14px; font-weight: bold; line-height: 1; margin: 0; padding: 10px 20px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ }
+.button:hover, .button:focus { color: white; background-color: #2284a1; }
+.button:active { -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
+.button.large { font-size: 17px; padding: 15px 30px 16px; }
+.button.medium { font-size: 14px; }
+
+.regen {margin: 0 auto;}
