@@ -13,6 +13,7 @@ div.gen {
 }
 
 div.entity {
+  border-radius: 0.7em;
   float: left;
   position: relative;
   height: 2em;
